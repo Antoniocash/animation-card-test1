@@ -71,6 +71,7 @@ body {
     top: 95%;
     left: 20%;
     font-size: medium;
+    transition: all 2s ease;
 }
 
 .line {
@@ -84,4 +85,10 @@ body {
 .card1:hover, .card2:hover, .card3:hover{
     transform: scale(1.1);
     z-index: 1;
+}
+
+.button:hover {
+    transform: translateY(10px);
+    left: 15%;
+    width: 28%;
 }
